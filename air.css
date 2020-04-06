@@ -1,0 +1,94 @@
+body{
+    background-color: #15202b;
+}
+
+
+/*Barra de pesquisa*/
+
+.pesq{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+    background-color: #15202b;
+    border: 2px solid #1da1f2;
+    border-radius: 200px;
+    line-height: 19.6833px;
+    display: block;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+    flex-grow: 1;
+    padding-right: 100px;
+}
+
+/* botoes */
+.btn-login{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #1da1f2;
+    background-color: #15202b;
+    border: 2px solid #1da1f2;
+    border-radius: 200px;
+    line-height: 19.6833px;
+    display: block;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.btn-register{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+    background-color: #1da1f2;
+    border: 2px solid #1da1f2;
+    border-radius: 200px;
+    line-height: 19.6833px;
+    display: block;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.btn-register:hover {
+	text-decoration: none; 
+    background-color:#15202b;
+    border: 2px solid #1da1f2;
+    color: #1da1f2;
+    transition: 2s;
+    }
+.btn-login:hover {
+    text-decoration: none; 
+    background-color:#1da1f2;
+    border: 2px solid #1da1f2;
+    transition: 2s;
+}
+
+.fa{
+    color: white;
+    font-size: 30px;
+
+}
+
+.xD{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f00;
+    color: #15202b;
+
+}
+
+.pontos{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+    background-color: #15202b;
+    border-radius: 200px;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+}
+
+.pontos:hover{
+    background-color: grey;
+    border-style: none;
+    transition: 2s;
+    color: white;
+    text-decoration: none; 
+}
